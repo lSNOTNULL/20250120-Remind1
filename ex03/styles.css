@@ -1,0 +1,12 @@
+li {
+  color: midnightblue;
+  font-size: 20px;
+}
+
+ol li {
+  color: bisque;
+}
+ol li {
+  color: blue;
+}
+/* Ctrl + `/` 주석처리 */

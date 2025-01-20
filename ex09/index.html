@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1 {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        margin-right: 10px;
+        float: left;
+      }
+      .box2 {
+        width: 200px;
+        height: 100px;
+        background-color: lightgreen;
+        margin-right: 10px;
+        float: left;
+      }
+      .box3 {
+        /* 직접 clear both 를 해도 되고 */
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+      }
+      body {
+        font-family: "Noto Sans KR", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.box1{박스 1}+div.box2{박스 2}+div.box3{박스 3} -->
+    <div class="box1">박스 1</div>
+    <div class="box2">박스 2</div>
+    <!-- float 가 붙지않게 clear를 끼워넣을 수도 있다 -->
+    <div style="clear: both"></div>
+    <div class="box3">박스 3</div>
+  </body>
+</html>
